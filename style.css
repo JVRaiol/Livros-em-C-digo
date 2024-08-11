@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-btn {
+    font-size: 24px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    position: fixed; /* Fixo na tela */
+    top: 10px; /* Distância do topo */
+    left: 10px; /* Distância da esquerda */
+    z-index: 1; /* Coloca o botão sobre outros elementos */
+    background-color:#002447; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    padding: 3px 3px; /* Espaçamento interno (alto e largo) */
+    border-radius: 5px; /* Cantos arredondados */
+    text-align: center; /* Centraliza o texto */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+
+.side-menu {
+    height: 100%; /* 100% da altura da janela */
+    width: 0; /* Inicialmente escondido */
+    position: fixed; /* Fixo na tela */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Cor de fundo */
+    overflow-x: hidden; /* Esconde o overflow horizontal */
+    transition: 0.5s; /* Transição suave para abrir/fechar */
+    padding-top: 60px; /* Espaço no topo */
+    z-index: 1;
+}
+
+
+.side-menu {
+   background-color: #130329;
+   position: fixed;
+}
+
+/* Estilo para os links do menu */
+.side-menu a {
+    padding: 8px 8px 8px 32px; /* Espaçamento dos links */
+    text-decoration: none; /* Remove sublinhado */
+    font-size: 25px; /* Tamanho da fonte */
+    color: #818181; /* Cor do texto */
+    display: block; /* Exibe os links em bloco */
+    transition: 0.3s; /* Transição suave para hover */
+}
+
+/* Nova classe para impedir rolagem */
+.no-scroll {
+    
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+}
+
+.side-menu{
+    height: 100%; /* 100% da altura da janela */
+    width: 0; /* Inicialmente escondido */
+    position: fixed; /* Fixo na tela */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Cor de fundo */
+    overflow-x: hidden; /* Esconde o overflow horizontal */
+    transition: 0.5s; /* Transição suave para abrir/fechar */
+    padding-top: 60px; /* Espaço no topo */
+    z-index: 1000; /* Define um z-index maior para garantir que fique acima de outros elementos */
+}
+
+/* Estilo para os links ao passar o mouse */
+.side-menu a:hover {
+    color: #f1f1f1;
+}
+
+/* Estilo para o botão de fechar */
+.side-menu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column; /* Coloca o título e a imagem em coluna */
+    align-items: center; /* Alinha horizontalmente no centro */
+    justify-content: center; /* Alinha verticalmente no centro */
+    text-align: center; /* Centraliza o texto */
+}
+
+.title {
+    color: white;
+    background-color: #021f3b;
+    font-family: 'Bodoni Moda SC', Arial, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra com 10px de difusão */
+    padding: 10px; /* Adiciona algum preenchimento para o título */
+}
+
+.logo {
+    max-width: 200px; /* Ajuste o tamanho máximo da logo */
+    width: 200px; /* Ajuste a largura conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-top: 10px; /* Espaço entre o título e a logo */
+}
+
+.description {
+    font-size: 1.2em;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(247, 248, 248, 0.623);
+    color: rgb(9, 19, 73);
+    white-space: pre-wrap; /* Mantém quebras de linha */
+    overflow: hidden; /* Evita overflow de texto */
+}
+
+/* Media query para dispositivos pequenos */
+@media (max-width: 768px) {
+    .description {
+        font-size: 1em; /* Reduz o tamanho da fonte */
+        margin-left: 20px; /* Reduz a margem esquerda */
+        margin-right: 20px; /* Reduz a margem direita */
+        padding: 15px; /* Reduz o padding */
+    }
+}
+
+/* Media query para dispositivos muito pequenos */
+@media (max-width: 480px) {
+    .description {
+        font-size: 0.9em; /* Reduz ainda mais o tamanho da fonte */
+        margin-left: 10px; /* Reduz a margem esquerda */
+        margin-right: 10px; /* Reduz a margem direita */
+        padding: 10px; /* Reduz o padding */
+    }
+}
+
+
+
+
+.section_title {
+    display: flex; 
+    box-shadow: 0 0 10px rgba(22, 28, 29, 0.692); 
+    align-items: center;  
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 75px;
+    background-color: rgba(8, 8, 5, 0.486);
+    color: aliceblue;
+    margin-bottom: 100px;
+    
+}
+
+.sections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    flex-wrap: wrap;
+    gap: 40px; /* Espaço entre os quadrados */
+    margin-bottom: 50px; 
+}
+
+
+.sections div {
+    position: relative; /* Necessário para posicionar o ::after corretamente */
+    width: 170px; /* Largura */
+    height: 170px; /* Altura */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px; /* Tamanho da fonte do texto */
+    background-size: cover; /* Faz a imagem cobrir toda a div */
+    background-position: center; /* Centraliza a imagem */
+    transition: color 0.3s ease; /* Transição suave para o destaque do texto */
+}
+
+/* Cria uma sobreposição com sombra ao passar o mouse */
+.sections div::after {
+    content: ''; /* Necessário para criar o pseudo-elemento */
+    position: absolute; /* Posiciona o pseudo-elemento */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.664); /* Sombra leve com fundo preto semitransparente */
+    opacity: 0; /* Começa invisível */
+    transition: opacity 0.3s ease; /* Transição suave para a visibilidade */
+    z-index: 1; /* Coloca a sobreposição acima da imagem */
+}
+
+/* Destaca o texto ao passar o mouse e mostra a sobreposição */                                                                     
+.sections div:hover {
+    color: #f1f0e7ef; /* Destaca o texto ao passar o mouse */
+}
+
+.sections div:hover::after {
+    opacity: 1; /* Torna a sobreposição visível */
+}
+
+.sections div span {
+    position: relative;
+    z-index: 2; /* Coloca o texto acima da sobreposição */
+}
+
+.sections div a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: white; /* Define a cor do texto do link */
+}
+
+.sections div a:visited {
+    color: white; /* Garante que a cor permaneça a mesma mesmo após o link ser visitado */
+}
+
+.Sociologia {
+    background-color: #4caf50;
+    color: white;
+    display: flex;
+    font-family: Arial, sans-serif;
+    width: 170px; /* Aumenta a largura */
+    height: 170px; /* Aumenta a altura */
+    align-items: center;
+    justify-content: center;
+    background-image: url(soci.jpg);
+   
+}
+
+.Artes {
+    background-color: #c72ebf;
+    color: white;
+    display: flex;
+    font-family: Arial, sans-serif;
+    width: 170px; /* Aumenta a largura */
+    height: 170px; /* Aumenta a altura */
+    align-items: center;
+    justify-content: center;
+    background-image: url(artes.jpg);
+}
+
+.Geografia {
+    background-color: #eba953;
+    color: white;
+    display: flex;
+    font-family: Arial, sans-serif;
+    width: 170px; /* Aumenta a largura */
+    height: 170px; /* Aumenta a altura */
+    align-items: center;
+    justify-content: center;
+    background-image: url(geo.jpg);
+}
+
+.Historia {
+    background-color: #adab28;
+    color: white;
+    display: flex;
+    font-family: Arial, sans-serif;
+    width: 170px; /* Aumenta a largura */
+    height: 170px; /* Aumenta a altura */
+    align-items: center;
+    justify-content: center;
+    background-image: url(hist.jpg)
+}
+
+.Filosofia{
+    background-color: #f54a6f;
+    color: white;
+    display: flex;
+    font-family: Arial, sans-serif;
+    width: 170px; /* Aumenta a largura */
+    height: 170px; /* Aumenta a altura */
+    align-items: center;
+    justify-content: center;
+    background-image: url(filo.jpg);
+
+}
+
+.Musica{
+    background-color: #f54a6f;
+    color: white;
+    display: flex;
+    font-family: Arial, sans-serif;
+    width: 170px; /* Aumenta a largura */
+    height: 170px; /* Aumenta a altura */
+    align-items: center;
+    justify-content: center;
+    background-image: url(music.jpg);
+    
+
+}
+
+.Literatura{
+    background-color: #f54a6f;
+    color: white;
+    display: flex;
+    font-family: Arial, sans-serif;
+    width: 170px; /* Aumenta a largura */
+    height: 170px; /* Aumenta a altura */
+    align-items: center;
+    justify-content: center;
+    background-image: url(lit.jpg);
+}
+
+.Matematica {
+    background-color: #f54a6f;
+    color: white;
+    display: flex;
+    font-family: Arial, sans-serif;
+    width: 170px; /* Aumenta a largura */
+    height: 170px; /* Aumenta a altura */
+    align-items: center;
+    justify-content: center;
+    background-image: url(matematica.jpg);
+
+}
+
+.Fisica{
+    background-color: #f54a6f;
+    color: white;
+    display: flex;
+    font-family: Arial, sans-serif;
+    width: 170px; /* Aumenta a largura */
+    height: 170px; /* Aumenta a altura */
+    align-items: center;
+    justify-content: center;
+    background-image: url(fisica.jpg);
+}
+
+.Biologia{
+    background-color: #f54a6f;
+    color: white;
+    display: flex;
+    font-family: Arial, sans-serif;
+    width: 170px; /* Aumenta a largura */
+    height: 170px; /* Aumenta a altura */
+    align-items: center;
+    justify-content: center;
+    background-image: url(biologia.jpg);
+}
+
+.Meio-ambiente{
+    background-color: #f54a6f;
+    color: white;
+    display: flex;
+    font-family: Arial, sans-serif;
+    width: 170px; /* Aumenta a largura */
+    height: 170px; /* Aumenta a altura */
+    align-items: center;
+    justify-content: center;
+    background-image: url(meio-ambiente.jpg);
+}
+
+.Quimica{
+    background-color: #f54a6f;
+    color: white;
+    display: flex;
+    font-family: Arial, sans-serif;
+    width: 170px; /* Aumenta a largura */
+    height: 170px; /* Aumenta a altura */
+    align-items: center;
+    justify-content: center;
+    background-image: url(quimica.jpg);
+}
+
+body {
+    background-image: url(fundo\ teste.jpg); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    
+}

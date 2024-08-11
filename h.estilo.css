@@ -1,0 +1,307 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(33, 88, 88, 0.342);
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Alinha os itens com espaço entre eles */
+    padding: 10px;
+    background-color: rgb(7, 7, 56); /* Você pode ajustar a cor */
+    color: white;
+    border-radius: 5px;
+}
+
+header .logo {
+    height: 80px; /* Ajuste o tamanho do logo conforme necessário */
+    width: auto;
+}
+
+header .T_principal {
+    margin: 0;
+    font-size: 24px;
+    flex-grow: 1; /* Permite que o título cresça e preencha o espaço disponível */
+    text-align: center;
+}
+
+
+.T_principal {
+    background-color: rgb(7, 7, 56);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* obra 1 */
+.container1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.book1 {
+    display: flex;
+    background-color: rgb(7, 7, 56);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 0 auto; /* Centraliza a div dentro do container */
+}
+
+.photo1 {
+    width: 250px; /* Aumentei a largura da imagem */
+    height: 250px;
+    background-image: url(hbook1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.info1 {
+    padding: 20px;
+    flex-grow: 1;
+    color: azure;
+}
+
+.titulo_1 {
+    margin: 0 0 10px;
+}
+
+.autoria_1 {
+    margin: 0;
+    margin-top: 40px;
+}
+
+
+
+.button1 {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease; /* Transição suave para hover */
+}
+
+.button1:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+/* obra 2 */
+.container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.book2 {
+    display: flex;
+    background-color: rgb(8, 8, 156);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 0 auto; /* Centraliza a div dentro do container */
+}
+
+.photo2 {
+    width: 250px; /* Aumentei a largura da imagem */
+    height: 250px;
+    background-image: url(hbook2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.info2 {
+    padding: 20px;
+    flex-grow: 1;
+    color: azure;
+}
+
+.titulo_2 {
+    margin: 0 0 10px;
+}
+
+.autoria_2 {
+    margin: 0;
+    margin-top: 40px;
+}
+
+.button2 {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease; /* Transição suave para hover */
+}
+
+.button2:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+
+/* obra 3 */
+.container3 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.book3 {
+    display: flex;
+    background-color: rgb(7, 7, 56);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 0 auto; /* Centraliza a div dentro do container */
+}
+
+.photo3 {
+    width: 250px; /* Aumentei a largura da imagem */
+    height: 250px;
+    background-image: url(hbook3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.info3 {
+    padding: 20px;
+    flex-grow: 1;
+    color: azure;
+}
+
+.titulo_3 {
+    margin: 0 0 10px;
+}
+
+.autoria_3 {
+    margin: 0;
+    margin-top: 40px;
+}
+
+
+
+.button3 {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease; /* Transição suave para hover */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+/* obra 4 */
+.container4 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.book4 {
+    display: flex;
+    background-color: rgb(8, 8, 156);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 0 auto; /* Centraliza a div dentro do container */
+}
+
+.photo4 {
+    width: 250px; /* Aumentei a largura da imagem */
+    height: 250px;
+    background-image: url(hbook4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.info4 {
+    padding: 20px;
+    flex-grow: 1;
+    color: azure;
+}
+
+.titulo_4 {
+    margin: 0 0 10px;
+}
+
+.autoria_4 {
+    margin: 0;
+    margin-top: 40px;
+}
+
+.button4 {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease; /* Transição suave para hover */
+}
+
+.button4:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+
+
+
+/* Responsividade */
+
+ @media (max-width: 768px) {
+    .book1, .book2, .book3, .book4 {
+        flex-direction: column;
+        align-items: center;
+    } 
+
+    .photo1, .photo2, .photo3, .photo4 {
+        width: 500px;
+        height: 500px;
+    }
+
+    .info1, .info2, .info3, .info4 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container1, .container2, .container3, .container4 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 40px; /* Ajuste de espaço entre os itens */
+    }
+
+    .book1, .book2, .book3, .book4 {
+        width: calc(100% - 40px); /* Ocupa quase toda a largura disponível  */
+    }
+}
