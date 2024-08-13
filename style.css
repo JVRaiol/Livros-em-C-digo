@@ -234,7 +234,7 @@ header {
     height: 170px; 
     align-items: center;
     justify-content: center;
-    background-image: url(soci.jpg);
+    background-image: url('soci.jpg');
    
 }
 
@@ -247,7 +247,7 @@ header {
     height: 170px; 
     align-items: center;
     justify-content: center;
-    background-image: url(artes.jpg);
+    background-image: url('artes.jpg');
 }
 
 .Geografia {
@@ -259,7 +259,7 @@ header {
     height: 170px; 
     align-items: center;
     justify-content: center;
-    background-image: url(geo.jpg);
+    background-image: url('geo.jpg');
 }
 
 .Historia {
@@ -271,7 +271,7 @@ header {
     height: 170px; 
     align-items: center;
     justify-content: center;
-    background-image: url(hist.jpg)
+    background-image: url('hist.jpg')
 }
 
 .Filosofia{
@@ -283,7 +283,7 @@ header {
     height: 170px; 
     align-items: center;
     justify-content: center;
-    background-image: url(filo.jpg);
+    background-image: url('filo.jpg');
 
 }
 
@@ -296,7 +296,7 @@ header {
     height: 170px; 
     align-items: center;
     justify-content: center;
-    background-image: url(music.jpg);
+    background-image: url('music.jpg');
     
 }
 
@@ -309,7 +309,7 @@ header {
     height: 170px; 
     align-items: center;
     justify-content: center;
-    background-image: url(lit.jpg);
+    background-image: url('lit.jpg');
 }
 
 .Matematica {
@@ -321,7 +321,7 @@ header {
     height: 170px; 
     align-items: center;
     justify-content: center;
-    background-image: url(matematica.jpg);
+    background-image: url('matematica.jpg');
 
 }
 
@@ -334,7 +334,7 @@ header {
     height: 170px; 
     align-items: center;
     justify-content: center;
-    background-image: url(fisica.jpg);
+    background-image: url('fisica.jpg');
 }
 
 .Biologia{
@@ -346,7 +346,7 @@ header {
     height: 170px; 
     align-items: center;
     justify-content: center;
-    background-image: url(biologia.jpg);
+    background-image: url('biologia.jpg');
 }
 
 .Meio-ambiente{
@@ -358,7 +358,7 @@ header {
     height: 170px; 
     align-items: center;
     justify-content: center;
-    background-image: url(meio-ambiente.jpg);
+    background-image: url('meio-ambiente.jpg');
 }
 
 .Quimica{
@@ -370,11 +370,11 @@ header {
     height: 170px; 
     align-items: center;
     justify-content: center;
-    background-image: url(quimica.jpg);
+    background-image: url('quimica.jpg');
 }
 
 body {
-    background-image: url(fundo teste.jpg); 
+    background-image: url('fundo teste.jpg'); 
     background-size: cover; 
     background-position: center; 
     
